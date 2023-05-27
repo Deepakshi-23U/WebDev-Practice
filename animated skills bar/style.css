@@ -1,0 +1,143 @@
+body
+{
+    background-color: black;
+    height:100vh;
+}
+
+.container
+{
+    position:absolute;
+    margin:auto;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    height:500px;
+    width:500px;
+}
+
+#c1
+{
+    height: 150px;
+    width:150px;
+    border-radius:100%;
+    background-color: hotpink;
+    position: absolute;
+    left:65%;
+    top:-10px;
+}
+
+#c2
+{
+    height: 150px;
+    width:150px;
+    border-radius:100%;
+    background-color: lightskyblue;
+    position: absolute;
+    left:0;
+    top:70%;
+}
+
+#form
+{
+    height:400px;
+    width:400px;
+    background-color: rgba(193, 178, 230, 0.09);
+    backdrop-filter: blur(8px);
+    border-radius:5px;
+    box-shadow: 0 5px 5px 0 rgba(31, 30, 30, 0.3);
+    position:absolute;
+    border: 1px solid rgba(223, 220, 230, 0.293);
+    left:40px;
+    top:50px;
+}
+
+h2
+{
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 4px;
+    position:relative;
+    left:12px;
+}
+
+.skills
+{
+    color:white;
+    font-weight: bold;
+    font-size: 16px;
+    display:flex;
+    justify-content:space-between;
+    position:relative;
+    left:5px;
+    margin-right: 25px;
+    margin-left:20px;
+}
+
+.bar
+{
+    padding:7px 10px;
+    background-color: rgba(132, 89, 240, 0.1);
+    width:300px;
+    margin-left:30px;
+    margin-top:10px;
+    margin-bottom:30px;
+    border-radius:3px;
+    backdrop-filter: blur(10px);
+}
+
+.bar div
+{
+    width:0;
+    height:5px;
+    background-color: cyan;
+    border:1px solid blue;
+    border-radius:2px;
+}
+
+#html-bar
+{
+    animation: html-fill 2s forwards;
+}
+@keyframes html-fill
+{
+    100%{
+        width:90%;
+    }
+
+}
+
+#CSS-bar
+{
+    animation: CSS-fill 2s forwards;
+}
+@keyframes CSS-fill
+{
+    100%{
+        width:60%;
+    }
+    
+}
+#JS-bar
+{
+    animation: JS-fill 2s forwards;
+}
+@keyframes JS-fill
+{
+    100%{
+        width:50%;
+    } 
+}
+
+#c-bar
+{
+    animation: c-fill 2s forwards;
+}
+@keyframes c-fill
+{
+    100%{
+        width:70%;
+    }
+    
+}
