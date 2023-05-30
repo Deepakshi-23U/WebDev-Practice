@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB color slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            R<input type="range" min="0" max="255" id="red" oninput="background()" value="0">
+        </div>
+        <div class="wrapper">
+            G<input type="range" min="0" max="255" id="blue" oninput="background()" value="0">
+        </div>
+        <div class="wrapper">
+            B<input type="range" min="0" max="255" id="green" oninput="background()" value="0">
+        </div>
+        <span id="output">rgb(0,0,0)</span>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
