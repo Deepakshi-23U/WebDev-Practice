@@ -1,0 +1,79 @@
+body
+{
+    margin:0;
+    padding:0;
+    background-color: black;
+}
+
+.container
+{
+    width:320px;
+    margin:15% 40%;
+    perspective:1000px;
+}
+
+.images
+{
+    position: absolute;
+    width:100%;
+    height:100%;
+    transform-style: preserve-3d;
+    animation: rotate 20s infinite;
+    animation-play-state: running;
+}
+
+.images:hover
+{
+    cursor:pointer;
+    animation-play-state: paused;
+}
+@keyframes rotate
+{
+    from{
+        transform: rotateY(0deg);
+    }
+    to{
+        transform:rotateY(360deg);
+    }
+}
+.images div
+{
+    position:absolute;
+    top:10px;
+    left:10px;
+    width:200px;
+    height:200px;
+}
+
+.images div img
+{
+    width:200px;
+    height:200px;
+    border:4px solid rgb(22, 231, 243);
+}
+
+#one
+{
+    transform: rotateY(0deg) translateZ(200px);
+}
+
+#two
+{
+    transform: rotateY(72deg) translateZ(200px);
+}
+
+#three
+{
+    transform: rotateY(144deg) translateZ(200px);
+}
+
+#four
+{
+    transform: rotateY(216deg) translateZ(200px);
+}
+
+#five
+{
+    transform: rotateY(300deg) translateZ(200px);
+}
+
