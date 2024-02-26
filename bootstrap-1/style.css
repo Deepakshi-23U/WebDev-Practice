@@ -1,0 +1,179 @@
+body
+{
+    font-family: 'Alkatra', cursive;
+    overflow-x:hidden;
+}
+
+.navbar
+{
+    filter:opacity(95%);
+}
+#dog
+{
+    height:700px;
+    width:400px;
+    transform:rotate(25deg);
+    position:absolute;
+}
+
+@media (max-width:1028px)
+{
+   .titles
+   {
+     text-align:center;
+   }
+   #dog
+   {
+    position:static;
+    transform:rotate(0deg);
+   }
+}
+
+#title
+{
+    background-color: pink;
+
+}
+
+.nav-items
+{
+  padding:0 40px;
+}
+
+.download
+{
+   margin:5% 3% 5% 0;
+}
+
+h1
+{
+
+    margin-top: 20%;
+    padding:5px;
+    color:white;
+}
+
+h2
+{
+    color:white;
+}
+
+.carousel-item
+{
+    padding:5%;
+}
+
+.container-fluid
+{
+    padding:3% 15% 10%;
+}
+
+#features
+{
+    padding:10%;
+    background-color:white;
+    position:relative;
+}
+
+.feat
+{
+    text-align:center;
+}
+
+h3
+{
+    padding-top:2%;
+    font-weight: bold;
+}
+
+.feat p, #pricing p
+{
+    color:gray;
+}
+
+.icon
+{
+    color:rgb(243, 98, 122);
+}
+.icon:hover
+{
+    color:pink;
+}
+
+#testimonials
+{
+    background-color: rgb(215, 85, 107);
+    text-align:center;
+    padding:5%;
+}
+
+#dog2
+{
+    height:200px;
+    width:200px;
+    border-radius: 100%;
+}
+
+#press
+{
+    background-color: rgb(215, 85, 107);
+    padding:2%;
+    text-align: center;
+}
+
+.logo
+{
+    height:200px;
+    width:200px;
+    padding:2%;
+}
+
+
+.c
+{
+    line-height:1.5;
+    font-size:4rem;
+    color:black;
+}
+
+#pricing
+{
+    padding:100px;
+}
+
+.card
+{
+    height:500px;
+    text-align:center;
+}
+.sign
+{
+    position:absolute;
+    bottom:20px;
+    left:10%;
+    width:80%;
+}
+
+.price
+{
+    padding:3% 2%;
+}
+
+#cta
+{
+    background-color: rgb(215, 85, 107);
+    text-align: center;
+    color:white;
+}
+
+#cta h3
+{
+    font-size:40px;
+}
+
+#footer
+{
+    text-align: center;
+    padding:3px;
+}
+
